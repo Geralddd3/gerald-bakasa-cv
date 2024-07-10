@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Encode+Sans+Semi+Condensed:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: "dm-sans", "roboto";
+    color: #000000;
+    background-color:#edeced;
+    padding: 0;
+}
+
+.bg-color-work-history{
+background-color: #edeced;
+}
+
+.logo {
+    font-family: "endcode-sans-semi-condensed", "dm-sans";
+    font-weight: 650;
+    font-size: 55px;
+    margin-top: 1px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    float: left;
+}
+nav-bar{
+    margin: 0;
+    position: fixed;
+}
+#menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 3px;
+    font-family: "encode-sans-semi-condensed", "roboto";
+    font-weight: 200;
+}
+.logo, #menu{
+    line-height: 75px;
+}
+    
+#menu li{
+    float: right;
+    margin-right: 30px;
+}
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover{
+    border-bottom: 1px solid #000000;
+}
+.active{
+    border-bottom: 1px solid #000000;
+}
+#background-img{
+    height: 600px;
+    background: url('assets/img/background.jpeg');
+}
+#about{
+    height: 600px;
+}
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+#right-about{
+    padding-top:30px;
+    width: 33%;
+    float: right;
+}
+#center-about{
+    width: 33%;
+    margin: 0 auto;
+}
+hr{
+    border-top: 1px solid #000000;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading{
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-heading{
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-heading h2{
+    text-align: right;
+}
+.right-about-heading p{
+    text-align: right;
+}
+#info{
+    margin: 15px 0;
+    text-align: center;
+    font-size: 280%;
+}
+#circle-container{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-style: solid;
+    border-color:#000000;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#circle-cover-hero{
+    background: url("//assets/img/hero\ img.jpeg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+.row-table{
+    display: table;
+}
+.section-column{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+.work-history-header{
+    font-family: "encode-sans-semi-condensed", "roboto";
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+
+footer{
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+    position: absolute;
+   }
+.social-links{
+    text-align: center;
+
+}
+.social-links li{
+    display: inline;
+}
+.social-links i{
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color:#000000;
+    text-align: center;
+
+}
